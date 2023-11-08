@@ -33,7 +33,7 @@ function gotResult(error, results) {
 
 
 function draw() {
-  image(vidoe, 0, 0, 380, 380);
+  image(video, 0, 0, 380, 380);
 
   if (status != "") {
     for (i = 0; i < objects.length; i++) {
